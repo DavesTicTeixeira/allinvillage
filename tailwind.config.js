@@ -1,6 +1,7 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {backgroundImage: {
+      'hero': "url('../images/pexels-andrew-mcleod-2894470.jpg')",},
   },
   variants: {},
   plugins: [
