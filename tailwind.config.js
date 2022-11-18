@@ -1,8 +1,9 @@
 module.exports = {
-  theme: {
-    extend: {backgroundImage: {
-      'hero': "url('../images/pexels-andrew-mcleod-2894470.jpg')",
-  },
+  theme:{
+    backgroundImage: {
+      'hero': "url('../public/images/hero.jpg')",
+    },
+},
   variants: {},
   plugins: [
     // require('@tailwindcss/custom-forms'),
