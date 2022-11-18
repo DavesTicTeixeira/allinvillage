@@ -2,10 +2,72 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Web Portfolio of Marco</title>
+    <title>Tailwind.run Export | new / 0</title>
+    <link rel="stylesheet" href="tailwind.out.css">
+    <!-- <link rel="stylesheet" href="tailwind.purged.css"> -->
   </head>
   <body>
-    <h1>Web Portfolio of Marco</h1>
-    <p>Write anything you want to tell the world.</p>
+    <style>
+      * {
+        transition: 0.2s all;
+      }
+      html {
+        font-family: 'Lucida Grande', Verdana, sans-serif;
+      }
+    </style>
+    
+    <div class="antialiased flex justify-center m-4">
+      <div
+        class="flex mb-2 border-t border-r border-l text-sm rounded overflow-hidden select-none"
+      >
+        <a class="px-4 py-2 border-b-2 border-purple-500 bg-purple-100">Docs</a>
+        <a class="px-4 py-2 border-b-2 hover:border-purple-500 hover:bg-purple-100">
+          Tutorials
+        </a>
+        <a class="px-4 py-2 border-b-2 hover:border-purple-500 hover:bg-purple-100">
+          Plugins
+        </a>
+        <a class="px-4 py-2 border-b-2 hover:border-purple-500 hover:bg-purple-100">
+          Features
+        </a>
+        <a class="px-4 py-2 border-b-2 hover:border-purple-500 hover:bg-purple-100">
+          Blog
+        </a>
+      </div>
+    </div>
+    
+    <div class="antialiased max-w-xs mx-auto">
+      <input class="form-input block w-full my-4" placeholder="Custom Form Input" />
+      <select class="form-select block w-full my-4">
+        <option>Option #1</option>
+        <option>Option #2</option>
+        <option>Option #3</option>
+      </select>
+      <div class="flex flex-col">
+        <label class="inline-flex items-center">
+          <input type="checkbox" class="form-checkbox text-pink-500" checked />
+          <span class="ml-2">Pink Checkbox</span>
+        </label>
+        <label class="inline-flex items-center">
+          <input
+            type="radio"
+            class="form-radio text-red-500"
+            name="radio-colors"
+            value="1"
+            checked
+          />
+          <span class="ml-2">Red Radio</span>
+        </label>
+        <label class="inline-flex items-center">
+          <input
+            type="radio"
+            class="form-radio text-green-500"
+            name="radio-colors"
+            value="2"
+          />
+          <span class="ml-2">Green Radio</span>
+        </label>
+      </div>
+    </div>
   </body>
 </html>
